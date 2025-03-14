@@ -95,7 +95,7 @@ class Ui_LoginScreen(QWidget):
     def login(self, email, password):
         user_ref = self.db.collection('users').document(email).get()
         if user_ref.exists and user_ref.to_dict().get('password') == password:
-            self.show_message("Sucesso", "Login realizado com sucesso!")
+            # self.show_message("Sucesso", "Login realizado com sucesso!")
             return True
         else:
             self.show_message("Erro", "Email ou senha incorretos.")

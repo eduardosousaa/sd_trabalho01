@@ -40,4 +40,3 @@ if __name__ == "__main__":
     db = init_firebase()
     ex = AppManager(db)
     sys.exit(app.exec_())
-
