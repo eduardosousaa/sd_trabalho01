@@ -52,7 +52,6 @@ Certifique-se de ter instalado:
 5. **Saia do sistema** clicando em "Logout".
 
 ## 🖼️ Prints da Interface
-Adicione prints das telas aqui. Exemplo:
 
 ![Tela de Login](assets/tela_login.png)
 ![Tela de Cadastro](assets/tela_login.png)
